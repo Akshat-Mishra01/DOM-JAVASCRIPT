@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>DOM Hands-On</title>
+</head>
+<body>
+
+    <h3>Q.1. Write the code to access element which is having id as "task"?</h3>
+    <p id="text">Welcome to prepbyte session....</p> 
+    
+
+
+    <h3> Q.2. Write the code to access element which is having tag as "h1"?</h3>
+    <p><h1>Tag is here.......</h1></p>
+
+
+    <h3> Q.3. Write the code to access element which is having class as "box"?</h3>
+    <h4 class="box"> Welcome to Prepbytes......</h4>
+    <h4 class="box"> Welcome to Prepbytes......</h4>
+    <h4 class="box"> Welcome to Prepbytes......</h4>
+    <h4 class="box"> Welcome to Prepbytes......</h4>
+    <h4 class="box"> Welcome to Prepbytes......</h4>
+    
+     
+     <h3> Q.4 <br> 
+       Hello 
+        <br>
+        Change the heading from ""Hello"" to ""Hello World"" using DOM functions"?</h3>
+       <h2>Hello</h2> 
+        <button onClick="changeText()">touch me</button>
+
+    <h3> Q.5  <br>
+         Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"</h3>
+        <h5 id="text1">Hello World</h5>
+        <button onclick="change()">Replace text</button>
+
+    <h3> Q.6 <br>
+        <h1>Hello </h1>
+        <h3>Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions.</h3>  </h3>
+
+
+     <h3> Q.7 Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.?</h3>
+         <div class="changeDimension">
+            <div class="child "></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+         </div>
+         <button onClick="direction()">Change Direction</button>
+
+
+         <h3> Q.8 <br>
+            Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second.</h3>
+            <div class="firstBox">
+                <span id="time">TIME</span>
+                <span id="hours">00</span>
+                <span>:</span>
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+                <span id="sessions">AM</span>
+            </div>
+
+           
+
+        <script src="./script.js"></script>
+</body>
+</html>
